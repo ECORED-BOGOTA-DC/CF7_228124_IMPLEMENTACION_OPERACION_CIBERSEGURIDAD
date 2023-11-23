@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Seguimiento de la seguridad digital**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-bogota-dc.github.io/CF7_228124_IMPLEMENTACION_OPERACION_CIBERSEGURIDAD/#/](https://ecored-bogota-dc.github.io/CF7_228124_IMPLEMENTACION_OPERACION_CIBERSEGURIDAD/#/)
 
 #
 
