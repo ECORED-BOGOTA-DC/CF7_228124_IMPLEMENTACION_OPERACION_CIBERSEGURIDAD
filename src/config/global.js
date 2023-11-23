@@ -126,60 +126,75 @@ export default {
   complementario: [
     {
       tema: '1. Métodos de métricas e indicadores de monitoreo',
-      referencia: 'Organización Internacional de Normalización (ISO). (2013). <em>Seguridad de la información, ciberseguridad y protección de la privacidad.</em> (ISO 27001). ',
+      referencia:
+        'Organización Internacional de Normalización (ISO). (2013). <em>Seguridad de la información, ciberseguridad y protección de la privacidad.</em> (ISO 27001). ',
       tipo: 'Otro: Norma técnica',
       link: 'https://www.iso.org/standard/54534.html',
     },
     {
       tema: '1. Métodos de métricas e indicadores de monitoreo',
-      referencia: 'Organización Internacional de Normalización (ISO). (2016). <em>Tecnología de la información - Técnicas de seguridad - Gestión de la seguridad de la información - Seguimiento, medición, análisis y evaluación.</em> (ISO27004).',
+      referencia:
+        'Organización Internacional de Normalización (ISO). (2016). <em>Tecnología de la información - Técnicas de seguridad - Gestión de la seguridad de la información - Seguimiento, medición, análisis y evaluación.</em> (ISO27004).',
       tipo: 'Otro: Norma técnica',
       link: 'https://www.iso.org/standard/64120.html',
     },
     {
       tema: '1. Métodos de métricas e indicadores de monitoreo',
-      referencia: 'Ministerio de Tecnologías de la Información y Comunicaciones (MINTIC). (2015). <em>Guía de indicadores de gestión para la seguridad de la información.</em>',
+      referencia:
+        'Ministerio de Tecnologías de la Información y Comunicaciones (MINTIC). (2015). <em>Guía de indicadores de gestión para la seguridad de la información.</em>',
       tipo: 'Otro: Guía técnica',
-      link: 'https://www.mintic.gov.co/gestionti/615/articles-5482_G9_Indicadores_Gestion_Seguridad.pdf',
+      link:
+        'https://www.mintic.gov.co/gestionti/615/articles-5482_G9_Indicadores_Gestion_Seguridad.pdf',
     },
   ],
   glosario: [
     {
       termino: 'Activo',
-      significado: 'cualquier cosa que tenga valor para la organización. [NTC 5411-1:2006].',
+      significado:
+        'cualquier cosa que tenga valor para la organización. [NTC 5411-1:2006].',
     },
     {
       termino: 'Amenaza',
-      significado: 'es toda aquella acción o serie de acciones, que aprovechan las vulnerabilidades para romper la seguridad de los sistemas.',
+      significado:
+        'es toda aquella acción o serie de acciones, que aprovechan las vulnerabilidades para romper la seguridad de los sistemas.',
     },
     {
       termino: 'Control',
-      significado: 'medios para gestionar el riesgo, incluyendo políticas, procedimientos, directrices, prácticas o estructuras de la organización que pueden ser de naturaleza administrativa, técnica, de gestión o legal.',
+      significado:
+        'medios para gestionar el riesgo, incluyendo políticas, procedimientos, directrices, prácticas o estructuras de la organización que pueden ser de naturaleza administrativa, técnica, de gestión o legal.',
     },
     {
       termino: 'Política',
-      significado: 'toda intención y directriz expresada formalmente por la Dirección.',
+      significado:
+        'toda intención y directriz expresada formalmente por la Dirección.',
     },
     {
       termino: 'Vulnerabilidad',
-      significado: 'te trata de aquella debilidad o fallo de seguridad que se presenta en un sistema de información, que puede estar compuesto por software, hardware y otros componentes y servicios tecnológicos, generando riesgos de seguridad de la información.',
+      significado:
+        'te trata de aquella debilidad o fallo de seguridad que se presenta en un sistema de información, que puede estar compuesto por software, hardware y otros componentes y servicios tecnológicos, generando riesgos de seguridad de la información.',
     },
   ],
   referencias: [
     {
-      referencia: 'Ministerio de Tecnologías de la Información y Comunicaciones (MINTIC). (s.f.). Guía de indicadores de gestión para la seguridad de la información.',
-      link: 'https://www.mintic.gov.co/gestionti/615/articles-5482_G9_Indicadores_Gestion_Seguridad.pdf ',
+      referencia:
+        'Ministerio de Tecnologías de la Información y Comunicaciones (MINTIC). (s.f.). Guía de indicadores de gestión para la seguridad de la información.',
+      link:
+        'https://www.mintic.gov.co/gestionti/615/articles-5482_G9_Indicadores_Gestion_Seguridad.pdf ',
     },
     {
-      referencia: 'Ministerio de Tecnologías de la Información y Comunicaciones (MINTIC). (s.f.). Guía Metodológica de Pruebas de Efectividad.',
-      link: 'https://www.mintic.gov.co/gestionti/615/articles-5482_G1_Metodologia_pruebas_efectividad.pdf',
+      referencia:
+        'Ministerio de Tecnologías de la Información y Comunicaciones (MINTIC). (s.f.). Guía Metodológica de Pruebas de Efectividad.',
+      link:
+        'https://www.mintic.gov.co/gestionti/615/articles-5482_G1_Metodologia_pruebas_efectividad.pdf',
     },
     {
-      referencia: 'Organización Internacional de Normalización (ISO). (2013). Seguridad de la información, ciberseguridad y protección de la privacidad. (ISO 27001).',
+      referencia:
+        'Organización Internacional de Normalización (ISO). (2013). Seguridad de la información, ciberseguridad y protección de la privacidad. (ISO 27001).',
       link: 'https://www.iso.org/standard/54534.html',
     },
     {
-      referencia: 'Organización Internacional de Normalización (ISO). (2016). Tecnología de la información - Técnicas de seguridad - Gestión de la seguridad de la información - Seguimiento, medición, análisis y evaluación. (ISO27004).',
+      referencia:
+        'Organización Internacional de Normalización (ISO). (2016). Tecnología de la información - Técnicas de seguridad - Gestión de la seguridad de la información - Seguimiento, medición, análisis y evaluación. (ISO27004).',
       link: 'https://www.iso.org/standard/64120.html',
     },
   ],
@@ -206,7 +221,8 @@ export default {
         {
           nombre: 'Pablo Cesar Pardo Ortiz',
           cargo: 'Experto Temático',
-          centro: 'Regional Cauca - Centro de Teleinformática y Producción Industrial',
+          centro:
+            'Regional Cauca - Centro de Teleinformática y Producción Industrial',
         },
         {
           nombre: 'Fabián Leonardo Correa Díaz',
@@ -221,7 +237,8 @@ export default {
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Asesor Pedagógico',
-          centro: 'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Sandra Patricia Hoyos Sepúlveda',
@@ -231,12 +248,14 @@ export default {
         {
           nombre: 'Gloria Amparo López Escudero',
           cargo: 'Adecuadora Instruccional',
-          centro: 'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información.',
+          centro:
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información.',
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
           cargo: 'Asesora Metodológica',
-          centro: 'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información.',
+          centro:
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información.',
         },
       ],
     },
