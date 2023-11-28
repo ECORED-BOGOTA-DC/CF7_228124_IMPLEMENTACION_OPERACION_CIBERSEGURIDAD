@@ -14,7 +14,7 @@
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.mb-0 Proteger la empresa u organización es más posible cuando se cuenta con herramientas de seguridad digital. Subestimar la importancia de una estrategia de ciberseguridad robusta, es un error que puede costar caro a las organizaciones.<br><br>Las estrategias de seguridad digital fortalecidas y desarrolladas bajo normas y estándares son la herramienta que garantiza la protección de las organizaciones.
 
-    .h5.text-center.mb-5(data-aos="fade-right") Conozca, a continuación, algunos de los #[em softwares] que contribuyen a la seguridad digital, desde la prevención o la mitigación de amenazas :
+    .h5.text-center.mb-5(data-aos="fade-right") Conozca, a continuación, algunos de los #[em software] que contribuyen a la seguridad digital, desde la prevención o la mitigación de amenazas:
 
     .tarjeta.BG11.p-5.mb-5(data-aos="zoom-in")
       SlyderA(tipo="b")
@@ -28,7 +28,7 @@
         .row.justify-content-center.px-lg-4.px-2
           .col-lg-8.order-lg-1.order-2
             .h4 Ntopng
-            p.mb-0 Es una de las mejores herramientas de monitoreo de trafico de red, cuenta con una interfaz web inteligente para explorar información sobre el tráfico histórico y en tiempo real, junto con los hosts activos.
+            p.mb-0 Es una de las mejores herramientas de monitoreo de tráfico de red, cuenta con una interfaz web inteligente para explorar información sobre el tráfico histórico y en tiempo real, junto con los hosts activos.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema3/img03.png' alt="Imagen decorativa")
         .row.justify-content-center.px-lg-4.px-2

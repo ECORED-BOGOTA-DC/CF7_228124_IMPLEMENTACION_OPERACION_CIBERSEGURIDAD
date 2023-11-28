@@ -61,7 +61,7 @@
         .col-lg-6(data-aos="fade-left")
           .titulo-segundo.color-primario(data-aos="fade-right")
             .h3 Guía No 1 (Guía metodológica de pruebas de efectividad) del MINTIC
-          p Afiance sus conocimientos en lo relacionado con Testing y monitoreo, visitando y leyendo, responsablemente, la guía.
+          p Afiance sus conocimientos en lo relacionado con #[em testing] y monitoreo, visitando y leyendo, responsablemente, la guía.
           a.boton.color-acento-botones.text-white.me-3(href="https://www.mintic.gov.co/gestionti/615/articles-5482_G1_Metodologia_pruebas_efectividad.pdf" target="_blank")
             span Descargar
             i.fas.fa-file-download
@@ -256,11 +256,14 @@
     .row.justify-content-center.mb-5
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         TabsA.color-acento-contenido
-          .tarjeta.BG13.p-4(titulo="Método pasivo")
-            p.mb-0 Aplica, si la recolección de la información no implica acceder a ningún sistema de la entidad o generar tráfico que pueda ser detectado por alguno de sus sistemas. Generalmente es información que está disponible en otros sitios y puede estar desactualizada, sin embargo, puede llegar a ser útil. #[span.ta MINTIC (s.f.).]
-          .tarjeta.BG13.p-4(titulo="Método semi-pasivo")
+          .tarjeta.BG13.p-4(titulo="Pasivo")
+            .h4 Método pasivo
+            p.mb-0 Aplica, si la recolección de la información no implica acceder a ningún sistema de la entidad o generar tráfico que pueda ser detectado por alguno de sus sistemas. Generalmente, es información que está disponible en otros sitios y puede estar desactualizada, sin embargo, puede llegar a ser útil. #[span.ta MINTIC (s.f.).]
+          .tarjeta.BG13.p-4(titulo="Semi-pasivo")
+            .h4 Método semi-pasivo
             p.mb-0 En esta instancia, se apunta hacia los sistemas de la entidad, simulando ser tráfico normal proveniente de internet, sin emplear ningún método que pueda considerarse sospechoso por parte de los sistemas, es “camuflar el tráfico”. Como por ejemplo consultas DNS simples para verificar los servidores públicos. #[span.ta MINTIC (s.f.).]
-          .tarjeta.BG13.p-4(titulo="Método activo")
+          .tarjeta.BG13.p-4(titulo="Activo")
+            .h4 Método activo
             p.mb-0 Este método de obtención de información es el más propenso a ser detectado por los sistemas de detección y monitoreo, comprenden actividades como: escaneo de puertos, análisis de vulnerabilidad a puertos abiertos y búsqueda de directorios, archivos o servidores adicionales que no estén públicamente disponibles. #[span.ta MINTIC (s.f.).]
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema2/img18.png' alt="Imagen decorativa")
@@ -283,20 +286,20 @@
               img(src='@/assets/curso/tema2/img19.png' alt="Imagen decorativa")
           .row.justify-content-center(numero="2" titulo="Enfocado en la entidad: considerar los activos…")
             .col-lg-8.order-lg-1.order-2
-              p Datos De Empleados y datos de clientes.
+              p Datos de empleados y datos de clientes.
               ul.lista-ul--color.lista-ul--separador.ms-4
                 li(style="margin-bottom: 2px")
                   i.fas.fa-check-circle.tac
-                  | Sistemas De Información e información financiera.
+                  | Sistemas de información e información financiera.
                 li(style="margin-bottom: 2px")
                   i.fas.fa-check-circle.tac
-                  | Información De Mercadeo.
+                  | Información de mercadeo.
                 li(style="margin-bottom: 2px")
                   i.fas.fa-check-circle.tac
-                  | Políticas, Planes y Procedimientos.
+                  | Políticas, planes y procedimientos.
                 li(style="margin-bottom: 2px")
                   i.fas.fa-check-circle.tac
-                  | Información Técnica (Diseños de infraestructura, información de configuración del sistema, cuentas de usuarios, cuentas de usuarios privilegiados).
+                  | Información técnica (diseños de infraestructura, información de configuración del sistema, cuentas de usuarios, cuentas de usuarios privilegiados).
                 li(style="margin-bottom: 2px")
                   i.fas.fa-check-circle.tac
                   | Personas.
@@ -305,7 +308,7 @@
                   | Información generada a través de los diferentes procesos de negocio.
                 li(style="margin-bottom: 2px")
                   i.fas.fa-check-circle.tac
-                  | Información de producto (Investigación y desarrollo, patentes, entre otros.)
+                  | Información de producto (investigación y desarrollo, patentes, entre otros.)
               p.ta.mb-0 MINTIC (s.f.).
             .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
               img(src='@/assets/curso/tema2/img20.png' alt="Imagen decorativa")
@@ -321,7 +324,7 @@
               p.ta.mb-0 MINTIC (s.f.).
             .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
               img(src='@/assets/curso/tema2/img22.png' alt="Imagen decorativa")
-          .row.justify-content-center(numero="5" titulo="Enfocado en el atacante:  agentes Internos")
+          .row.justify-content-center(numero="5" titulo="Enfocado en el atacante:  agentes internos")
             .col-lg-8.order-lg-1.order-2
               p Los atacantes o agentes de ataque, internos, pueden llegar a ser:
               ul.lista-ul--color.lista-ul--separador.ms-4
@@ -370,7 +373,7 @@
                   | Crimen organizado.
                 li(style="margin-bottom: 2px")
                   i.fas.fa-check-circle.tac
-                  | Hacktivistas.
+                  p.mb-0 #[em Hacktivistas].
                 li(style="margin-bottom: 2px")
                   i.fas.fa-check-circle.tac
                   p.mb-0 #[em Hackers] tipo #[em Script Kiddies].
@@ -397,14 +400,16 @@
             p Utiliza un #[em software] que interactúa con el objetivo; realiza varios procedimientos de análisis simultáneamente, dando ventajas significativas de tiempo y esfuerzos, respecto a los métodos manuales. Una ventaja es, por ejemplo, ejecutar un telnet hacia un puerto para verificar si este responde o está abierto, repetir este proceso para los más de 60 mil puertos es una labor tediosa y un #[em software] puede ejecutarla.
             p.ta.mb-0 MINTIC (s.f.).
           div(numero="3" titulo="Ejecutan el método automático")
-            p Escáneres de puertos.
             ul.lista-ul--color.lista-ul--separador.ms-4
+              li(style="margin-bottom: 2px")
+                i.fas.fa-check-circle.tac
+                | Escáneres de puertos.
               li(style="margin-bottom: 2px")
                 i.fas.fa-check-circle.tac
                 | Escáneres basados en servicios.
               li(style="margin-bottom: 2px")
                 i.fas.fa-check-circle.tac
-                | Lectura de Banners.
+                p.mb-0 Lectura de #[em banners].
               li(style="margin-bottom: 2px")
                 i.fas.fa-check-circle.tac
                 | Escáneres específicos para servicios web.
@@ -425,20 +430,22 @@
             p Una vez se realiza la verificación de las vulnerabilidades con base en los métodos anteriores, es necesario investigar en las diferentes bases de datos para comprobar la veracidad de lo que se ha encontrado y las posibles maneras de apalancar o aprovechar las fallas identificadas. 
             p.ta.mb-0 MINTIC (s.f.).
           div(numero="5" titulo="Fuentes de información del método investigación")
-            p Bases de datos de vulnerabilidades (CVE)
             ul.lista-ul--color.lista-ul--separador.ms-4
+              li(style="margin-bottom: 2px")
+                i.fas.fa-check-circle.tac
+                | Bases de datos de vulnerabilidades (CVE)
               li(style="margin-bottom: 2px")
                 i.fas.fa-check-circle.tac
                 | Alertas o publicaciones de proveedores de plataformas.
               li(style="margin-bottom: 2px")
                 i.fas.fa-check-circle.tac
-                | Bases de datos de exploits.
+                p.mb-0 Bases de datos de #[em exploits].
               li(style="margin-bottom: 2px")
                 i.fas.fa-check-circle.tac
-                | Passwords por defecto de plataformas específicas.
+                p.mb-0 #[em Passwords] por defecto de plataformas específicas.
               li(style="margin-bottom: 2px")
                 i.fas.fa-check-circle.tac
-                | Guías de hardening (endurecimiento) para plataformas.
+                p.mb-0 Guías de #[em hardening] (endurecimiento) para plataformas.
               li(style="margin-bottom: 2px")
                 i.fas.fa-check-circle.tac
                 | Investigación propia (empleando virtualización o duplicación de máquinas por ejemplo).
@@ -466,7 +473,7 @@
               p.mb-0 Implica realizar las pruebas de penetración escapando de los sistemas de detección, pueden implicar desde seguridad física (evadir una cámara) hasta evadir un sistema tipo IDS/IPS.
             div.text-start(data-aos="fade-left")
               .h5.tcp Ataques de precisión
-              p.mb-0 Uso de ataques bien focalizados, es decir, no empezar a atacar objetivos de manera indiscriminada sino bien estructurada y puntual.
+              p.mb-0 Uso de ataques bien focalizados, es decir, no empezar a atacar objetivos de manera indiscriminada, sino bien estructurada y puntual.
             div(data-aos="fade-right")
               .h5.tcp Ataques personalizados
               p.mb-0 Con base a tecnologías/medios de transmisión: Dependiendo del medio de transmisión (cableado, vía Wifi).
@@ -638,7 +645,7 @@
             | Recolección de información basada en recursos publicados por la propia entidad.
           li(style="margin-bottom: 2px" data-aos="fade-right")
             i.fas.fa-check-circle.tac
-            | Información recolectada en plataformas como google, bing, páginas de referencia, etc.
+            | Información recolectada en plataformas como Google, Bing, páginas de referencia, etc.
           li(style="margin-bottom: 2px" data-aos="fade-right")
             i.fas.fa-check-circle.tac
             | Información que pudo ser recolectada en las plataformas publicadas como, estructura de la organización, unidades de negocio, mercados, proveedores etc.

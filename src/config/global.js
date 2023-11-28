@@ -55,19 +55,19 @@ export default {
         desarrolloContenidos: true,
         subMenu: [
           {
-            numero: '3.1',
+            numero: '2.1',
             titulo: 'Tipos de pruebas de efectividad',
-            hash: 't_3_1',
+            hash: 't_2_1',
           },
           {
-            numero: '3.2',
+            numero: '2.2',
             titulo: 'Alcance de las pruebas de efectividad',
-            hash: 't_3_2',
+            hash: 't_2_2',
           },
           {
-            numero: '3.3',
+            numero: '2.3',
             titulo: 'Procedimiento de las pruebas',
-            hash: 't_3_3',
+            hash: 't_2_3',
           },
         ],
       },
@@ -190,7 +190,7 @@ export default {
     {
       referencia:
         'Organización Internacional de Normalización (ISO). (2013). Seguridad de la información, ciberseguridad y protección de la privacidad. (ISO 27001).',
-      link: 'https://www.iso.org/standard/54534.html',
+      link: 'https://www.iso.org/standard/27001',
     },
     {
       referencia:

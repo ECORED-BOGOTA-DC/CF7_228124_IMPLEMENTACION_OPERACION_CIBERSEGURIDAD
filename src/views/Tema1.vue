@@ -122,7 +122,7 @@
       .col-auto.BG08.py-2.px-3(data-aos="fade-right")
         .h3.mb-0 Indicadores de gestión e indicadores de cumplimiento
     
-    p(data-aos="fade-right") Tanto las normas ISO/IEC 27001 e ISO/IEC 27004, así como la Guía 9 de indicadores de gestión para la seguridad de la información del Ministerio de Tecnologías de la Información y las Comunicaciones , destacan la importancia de estos, para medir la gestión y el cumplimiento en el modelo de seguridad digital de las organizaciones. A continuación, algunas definiciones y orientaciones otorgadas por el MINTIC:
+    p(data-aos="fade-right") Tanto las normas ISO/IEC 27001 e ISO/IEC 27004, así como la Guía 9 de indicadores de gestión para la seguridad de la información del Ministerio de Tecnologías de la Información y las Comunicaciones, destacan la importancia de estos, para medir la gestión y el cumplimiento en el modelo de seguridad digital de las organizaciones. A continuación, algunas definiciones y orientaciones otorgadas por el MINTIC:
     p.mb-5(data-aos="fade-right") Se destacan, los tipos de indicadores que se enuncian y definen a continuación:
 
     .h4.tcp(data-aos="fade-right") <i class="fas fa-volleyball-ball fa-spin" style="padding-right: 5px"></i> Indicadores de Gestión
@@ -134,10 +134,10 @@
         img(src='@/assets/curso/tema1/img10.png' alt="Imagen decorativa")
       .col-lg-9(data-aos="fade-left")
         LineaTiempoD.color-acento-contenido
-          div(numero="1" titulo="Organización De seguridad de la información")
+          div(numero="1" titulo="Organización de seguridad de la información")
             p Permite determinar y hacer seguimiento, al compromiso de la dirección, en cuanto a seguridad de la información, en lo relacionado con la asignación de personas y responsabilidades relacionadas con la seguridad de la información, al interior de la organización. 
             p.mb-0 #[b Objetivo]: hacer un seguimiento a la asignación de recursos y responsabilidades en gestión de seguridad de la información, por parte de la alta dirección.
-          div(numero="2" titulo="Cubrimiento del SGSI En activos de información")
+          div(numero="2" titulo="Cubrimiento del SGSI en activos de información")
             p Permite determinar y hacer seguimiento al cubrimiento que se realiza al nivel de activos críticos de información de una organización y los controles aplicados.
             p.mb-0 #[b Objetivo]: hacer un seguimiento a la inclusión de nuevos activos críticos de información y su control, dentro del marco de seguridad y privacidad de la información.
           div(numero="3" titulo="Tratamientos de eventos relacionados en marco de seguridad y privacidad de la información")
@@ -175,7 +175,7 @@
             p Grado de implementación de políticas privacidad y confidencialidad.
             p.mb-0 #[b Objetivo]: identificar el nivel de implementación de políticas de privacidad y confidencialidad de la organización.
           div(numero="8" titulo="Verificación de las políticas de integridad de la información")
-            p Es el grado de implementación de mecanismos para la integridad de la información y busca identificar el nivel de implementación de políticas privacidad y confidencialidad de la organización.
+            p Es el grado de implementación de mecanismos para la integridad de la información y busca identificar el nivel de implementación de políticas, privacidad y confidencialidad de la organización.
           div(numero="9" titulo="Políticas de disponibilidad del servicio Y la información")
             p Es el grado de cumplimiento de las políticas de disponibilidad del servicio y la información.
             p.mb-0 #[b Objetivo]: identificar el nivel de implementación de políticas de disponibilidad del servicio y la información.
