@@ -147,9 +147,9 @@
             p Permite medir la aplicación de los temas sensibilizados en seguridad de la información por parte de los usuarios finales. Estas mediciones se podrán realizar por medio de auditorías especializadas en el tema o de forma aislada por parte de los responsables de la capacitación y sensibilización.
             p.mb-0 #[b Objetivo]: establecer la efectividad de un plan de capacitación y sensibilización, previamente definido como medio para el control de incidentes de seguridad.
 
-    .h4.tcp(data-aos="fade-right") <i class="fas fa-volleyball-ball fa-spin" style="padding-right: 5px"></i> Indicadores de Cumplimiento
+    .h4.tcp(data-aos="fade-right") <i class="fas fa-volleyball-ball fa-spin" style="padding-right: 5px"></i> Indicadores de cumplimiento
   
-    p.mb-5(data-aos="fade-right") están relacionados con las razones que indican el grado de consecución de tareas. Revise a continuación más información sobre este tipo de indicadores:
+    p.mb-5(data-aos="fade-right") Están relacionados con las razones que indican el grado de consecución de tareas. Revise a continuación más información sobre este tipo de indicadores:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9.order-lg-1.order-2(data-aos="fade-right")
@@ -175,8 +175,9 @@
             p Grado de implementación de políticas privacidad y confidencialidad.
             p.mb-0 #[b Objetivo]: identificar el nivel de implementación de políticas de privacidad y confidencialidad de la organización.
           div(numero="8" titulo="Verificación de las políticas de integridad de la información")
-            p Es el grado de implementación de mecanismos para la integridad de la información y busca identificar el nivel de implementación de políticas, privacidad y confidencialidad de la organización.
-          div(numero="9" titulo="Políticas de disponibilidad del servicio Y la información")
+            p Es el grado de implementación de mecanismos para la integridad de la información.
+            p.mb-0 #[b Objetivo]:  identificar el nivel de implementación de políticas, privacidad y confidencialidad de la organización.
+          div(numero="9" titulo="Políticas de disponibilidad del servicio y la información")
             p Es el grado de cumplimiento de las políticas de disponibilidad del servicio y la información.
             p.mb-0 #[b Objetivo]: identificar el nivel de implementación de políticas de disponibilidad del servicio y la información.
           div(numero="10" titulo="Ataques informáticos a la organización")

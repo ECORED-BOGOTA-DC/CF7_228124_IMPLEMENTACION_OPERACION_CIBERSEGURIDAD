@@ -28,7 +28,7 @@
         .row.justify-content-center.px-lg-4.px-2
           .col-lg-8.order-lg-1.order-2
             .h4 Ntopng
-            p.mb-0 Es una de las mejores herramientas de monitoreo de tráfico de red, cuenta con una interfaz web inteligente para explorar información sobre el tráfico histórico y en tiempo real, junto con los hosts activos.
+            p.mb-0 Es una de las mejores herramientas de monitoreo de tráfico de red, cuenta con una interfaz web inteligente para explorar información sobre el tráfico histórico y en tiempo real, junto con los #[em hosts] activos.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema3/img03.png' alt="Imagen decorativa")
         .row.justify-content-center.px-lg-4.px-2
@@ -39,7 +39,7 @@
             img(src='@/assets/curso/tema3/img04.png' alt="Imagen decorativa")
         .row.justify-content-center.px-lg-4.px-2
           .col-lg-8.order-lg-1.order-2
-            .h4 PRTG #[em Network Monitor]
+            .h4 PRTG Network Monitor
             p.mb-0 Tiene la capacidad de monitorear de manera eficiente sus dispositivos, sistemas y aplicaciones de red.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema3/img05.png' alt="Imagen decorativa")

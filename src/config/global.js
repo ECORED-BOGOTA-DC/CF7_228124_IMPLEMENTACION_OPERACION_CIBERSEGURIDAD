@@ -128,21 +128,21 @@ export default {
       tema: '1. Métodos de métricas e indicadores de monitoreo',
       referencia:
         'Organización Internacional de Normalización (ISO). (2013). <em>Seguridad de la información, ciberseguridad y protección de la privacidad.</em> (ISO 27001). ',
-      tipo: 'Otro: Norma técnica',
-      link: 'https://www.iso.org/standard/54534.html',
+      tipo: 'Norma técnica',
+      link: 'https://www.iso.org/standard/27001',
     },
     {
       tema: '1. Métodos de métricas e indicadores de monitoreo',
       referencia:
         'Organización Internacional de Normalización (ISO). (2016). <em>Tecnología de la información - Técnicas de seguridad - Gestión de la seguridad de la información - Seguimiento, medición, análisis y evaluación.</em> (ISO27004).',
-      tipo: 'Otro: Norma técnica',
+      tipo: 'Norma técnica',
       link: 'https://www.iso.org/standard/64120.html',
     },
     {
       tema: '1. Métodos de métricas e indicadores de monitoreo',
       referencia:
         'Ministerio de Tecnologías de la Información y Comunicaciones (MINTIC). (2015). <em>Guía de indicadores de gestión para la seguridad de la información.</em>',
-      tipo: 'Otro: Guía técnica',
+      tipo: 'Guía técnica',
       link:
         'https://www.mintic.gov.co/gestionti/615/articles-5482_G9_Indicadores_Gestion_Seguridad.pdf',
     },
@@ -166,35 +166,35 @@ export default {
     {
       termino: 'Política',
       significado:
-        'toda intención y directriz expresada formalmente por la Dirección.',
+        'toda intención y directriz expresada formalmente por la dirección.',
     },
     {
       termino: 'Vulnerabilidad',
       significado:
-        'te trata de aquella debilidad o fallo de seguridad que se presenta en un sistema de información, que puede estar compuesto por software, hardware y otros componentes y servicios tecnológicos, generando riesgos de seguridad de la información.',
+        'te trata de aquella debilidad o fallo de seguridad que se presenta en un sistema de información, que puede estar compuesto por <em>software, hardware</em> y otros componentes y servicios tecnológicos, generando riesgos de seguridad de la información.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Ministerio de Tecnologías de la Información y Comunicaciones (MINTIC). (s.f.). Guía de indicadores de gestión para la seguridad de la información.',
+        'Ministerio de Tecnologías de la Información y Comunicaciones (MINTIC). (s.f.). <em>Guía de indicadores de gestión para la seguridad de la información.</em>',
       link:
         'https://www.mintic.gov.co/gestionti/615/articles-5482_G9_Indicadores_Gestion_Seguridad.pdf ',
     },
     {
       referencia:
-        'Ministerio de Tecnologías de la Información y Comunicaciones (MINTIC). (s.f.). Guía Metodológica de Pruebas de Efectividad.',
+        'Ministerio de Tecnologías de la Información y Comunicaciones (MINTIC). (s.f.). <em>Guía Metodológica de Pruebas de Efectividad.</em>',
       link:
         'https://www.mintic.gov.co/gestionti/615/articles-5482_G1_Metodologia_pruebas_efectividad.pdf',
     },
     {
       referencia:
-        'Organización Internacional de Normalización (ISO). (2013). Seguridad de la información, ciberseguridad y protección de la privacidad. (ISO 27001).',
+        'Organización Internacional de Normalización (ISO). (2013). <em>Seguridad de la información, ciberseguridad y protección de la privacidad.</em> (ISO 27001).',
       link: 'https://www.iso.org/standard/27001',
     },
     {
       referencia:
-        'Organización Internacional de Normalización (ISO). (2016). Tecnología de la información - Técnicas de seguridad - Gestión de la seguridad de la información - Seguimiento, medición, análisis y evaluación. (ISO27004).',
+        'Organización Internacional de Normalización (ISO). (2016). <em>Tecnología de la información - Técnicas de seguridad - Gestión de la seguridad de la información - Seguimiento, medición, análisis y evaluación.</em> (ISO27004).',
       link: 'https://www.iso.org/standard/64120.html',
     },
   ],

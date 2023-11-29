@@ -8,7 +8,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5(data-aos="fade-right")
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="Imagen decorativa")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Esta síntesis resume los temas y subtemas abordados en este componente formativo como son las métricas e indicadores de monitoreo con sus tipos y características, de otra parte se aborda el monitoreo de la seguridad digital y su objetivo, y finalmente el software y su manera de contribuir a la mitigación de amenazas.")
       .col-auto(data-aos="fade-left")
         a.anexo.mb-4(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

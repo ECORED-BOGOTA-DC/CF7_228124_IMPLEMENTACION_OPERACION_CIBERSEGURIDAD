@@ -142,7 +142,7 @@
         .row.justify-content-center.px-lg-4.px-2
           .col-lg-6.order-lg-1.order-2
             .h4.mb-5 ¿Soluciones definitivas en seguridad?
-            p En términos figurativos, no existe una bala de plata para los inconvenientes de seguridad que pueda tener una organización. Un modelo de protección y seguridad, por más adecuado, nunca será 100% determinante.
+            p En términos figurativos, no existe una bala de plata para los inconvenientes de seguridad que pueda tener una organización. Un modelo de protección y seguridad, por más adecuado, nunca será 100 % determinante.
             p.ta.mb-0 MINTIC (s.f.).
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema2/img12.png' alt="Imagen decorativa")
@@ -163,32 +163,10 @@
     .row.justify-content-center.mb-5
       .col-lg-6
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/tema2/img14.svg' alt="Imagen decorativa")
+          img(src='@/assets/curso/tema2/img14.svg' alt="Imagen que menciona las fases de las pruebas de efectividad, las cuales son:<br>Contextualización, reconocimiento del objetivo, modelo de amenazas, evaluación de vulnerabilidades, explotación, post-explotación, reporte.")
           figcaption.text-center Nota. <a style="color: #3F51B5; text-decoration: underline #3F51B5" href="https://www.mintic.gov.co/gestionti/615/articles-5482_G1_Metodologia_pruebas_efectividad.pdf" target="_blank">Guía metodológica de pruebas de efectividad</a>
     
     p.mb-5(data-aos="fade-right") Repase las fases secuenciales de aplicación de las pruebas de efectividad, en procesos de seguridad de la información, como lo propone MINTIC, explorando la información que se expone a continuación:
-
-    .BGM12.py-4.px-md-5.px-4.mb-4
-      .row.justify-content-center(data-aos="zoom-in")
-        .col-lg-8
-          ImagenInfografica.color-acento-botones
-            template(v-slot:imagen)
-              figure
-                img(src='@/assets/curso/tema2/img15.svg', alt='Imagen decorativa')
-            .tarjeta.BGRY09.p-3(x="49.8%" y="26%" numero="+")
-              p.mb-0 Esta fase se basa en identificar los alcances reales de las pruebas y de los procedimientos a ejecutar con base a las necesidades identificadas.
-            .tarjeta.BGRY09.p-3(x="64%" y="35%" numero="+")
-              p.mb-0 Una vez se definen los alcances y necesidades, se procede con la fase de reconocimiento. Esta fase tiene por objetivo obtener tanta información del objetivo como sea posible para poder ser empleada en las fases de evaluación de vulnerabilidades y la fase de explotación.
-            .tarjeta.BGRY09.p-3(x="67.5%" y="55%" numero="+")
-              p.mb-0 Esta fase maneja la relación atacante vs activo, es decir, el atacante que beneficio puede obtener si logra su objetivo de penetrar el sistema y modificar, borrar, copiar o destruir algún activo de información.
-            .tarjeta.BGRY09.p-3(x="57.5%" y="70%" numero="+")
-              p.mb-0 Es el proceso de descubrir falencias en los sistemas y aplicaciones que pueden llegar a ser aprovechados por un atacante. Dichas falencias pueden ser descubiertas a nivel del host o en la administración o configuración o diseño del mismo.
-            .tarjeta.BGRY09.p-3(x="42.2%" y="70%" numero="+")
-              p.mb-0 Esta fase se centra puramente en obtener acceso al sistema, apalancando las debilidades identificadas en la etapa anterior o sobrepasando los controles de seguridad existentes.
-            .tarjeta.BGRY09.p-3(x="32%" y="55%" numero="+")
-              p.mb-0 Una vez se encuentra comprometido el sistema o host (fase anterior), se procederá a identificar qué tipo de información puede obtenerse, qué otros sistemas de información se puedan ingresar desde el sistema capturado, identificar opciones de configuración, información de red (direccionamiento IP de VLAN, servidores vecinos, direcciones físicas, etc.), todo esto con el objetivo principal de determinar el valor de la máquina para la organización.
-            .tarjeta.BGRY09.p-3(x="36%" y="35%" numero="+")
-              p.mb-0 Es necesario documentar todos los resultados obtenidos en cada fase, para tener soportes de las labores realizadas y a su vez la respectiva justificación de los resultados finales.
 
     .row.mb-5
       .col-auto.BG08.py-2.px-3(data-aos="fade-right")
@@ -280,7 +258,7 @@
         LineaTiempoD.color-acento-contenido
           .row.justify-content-center(numero="1" titulo="Enfocado en la entidad: qué pasa si…")
             .col-lg-8.order-lg-1.order-2
-              p Gestión del riesgo para determinar el apetito de riesgo de la entidad y para identificar los activos más críticos (o los que mayor impacto negativo pueden causar en caso de verse afectados). Este análisis busca resolver la incógnita “Que pasa si”, por ejemplo, que pasa si se divulga la información de mis sistemas de información, ¿si se vulnera la confidencialidad?, ¿Qué impacto tendría dicha divulgación?.
+              p Gestión del riesgo para determinar el apetito de riesgo de la entidad y para identificar los activos más críticos (o los que mayor impacto negativo pueden causar en caso de verse afectados). Este análisis busca resolver la incógnita “Que pasa si”, por ejemplo, que pasa si se divulga la información de mis sistemas de información, ¿si se vulnera la confidencialidad?, ¿Qué impacto tendría dicha divulgación?
               p.ta.mb-0 MINTIC (s.f.).
             .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
               img(src='@/assets/curso/tema2/img19.png' alt="Imagen decorativa")
@@ -308,7 +286,7 @@
                   | Información generada a través de los diferentes procesos de negocio.
                 li(style="margin-bottom: 2px")
                   i.fas.fa-check-circle.tac
-                  | Información de producto (investigación y desarrollo, patentes, entre otros.)
+                  | Información de producto (investigación y desarrollo, patentes, entre otros.).
               p.ta.mb-0 MINTIC (s.f.).
             .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
               img(src='@/assets/curso/tema2/img20.png' alt="Imagen decorativa")
@@ -330,25 +308,25 @@
               ul.lista-ul--color.lista-ul--separador.ms-4
                 li(style="margin-bottom: 2px")
                   i.fas.fa-check-circle.tac
-                  | Administradores, ejecutivos
+                  | Administradores, ejecutivos.
                 li(style="margin-bottom: 2px")
                   i.fas.fa-check-circle.tac
-                  | Administradores de infraestructura
+                  | Administradores de infraestructura.
                 li(style="margin-bottom: 2px")
                   i.fas.fa-check-circle.tac
-                  | Desarrolladores
+                  | Desarrolladores.
                 li(style="margin-bottom: 2px")
                   i.fas.fa-check-circle.tac
-                  | Ingenieros
+                  | Ingenieros.
                 li(style="margin-bottom: 2px")
                   i.fas.fa-check-circle.tac
-                  | Técnicos
+                  | Técnicos.
                 li(style="margin-bottom: 2px")
                   i.fas.fa-check-circle.tac
-                  | Contratistas
+                  | Contratistas.
                 li(style="margin-bottom: 2px")
                   i.fas.fa-check-circle.tac
-                  | Soporte remoto
+                  | Soporte remoto.
               p.ta.mb-0 MINTIC (s.f.).
             .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
               img(src='@/assets/curso/tema2/img23.png' alt="Imagen decorativa")
@@ -385,7 +363,7 @@
       .col-auto.BG08.py-2.px-3(data-aos="fade-right")
         .h3.mb-0 Fase de análisis de vulnerabilidades
 
-    p(data-aos="fade-right") Dependiendo de la amplitud de los alcances propuestos, el análisis de vulnerabilidad puede variar desde analizar un servicio o host específico o a un inventario completo de máquinas.
+    p(data-aos="fade-right") Dependiendo de la amplitud de los alcances propuestos, el análisis de vulnerabilidad puede variar desde analizar un servicio o #[em host] específico o a un inventario completo de máquinas.
     .h5.text-center.mb-5(data-aos="fade-right") Estos procesos de análisis pueden ejecutarse también de las siguientes maneras o métodos:
 
     .row.justify-content-center.mb-5
@@ -433,7 +411,7 @@
             ul.lista-ul--color.lista-ul--separador.ms-4
               li(style="margin-bottom: 2px")
                 i.fas.fa-check-circle.tac
-                | Bases de datos de vulnerabilidades (CVE)
+                | Bases de datos de vulnerabilidades (CVE).
               li(style="margin-bottom: 2px")
                 i.fas.fa-check-circle.tac
                 | Alertas o publicaciones de proveedores de plataformas.
@@ -448,7 +426,7 @@
                 p.mb-0 Guías de #[em hardening] (endurecimiento) para plataformas.
               li(style="margin-bottom: 2px")
                 i.fas.fa-check-circle.tac
-                | Investigación propia (empleando virtualización o duplicación de máquinas por ejemplo).
+                | Investigación propia (empleando virtualización o duplicación de máquinas, por ejemplo).
             p.ta.mb-0 MINTIC (s.f.).
           div(numero="6" titulo="Consolidado de investigación")
             p Una vez se realiza la investigación, se deben confirmar las vulnerabilidades encontradas en un archivo consolidado, con su respectiva justificación y los tipos de ataque que podrían ejecutarse con base a los mismos.
@@ -482,19 +460,19 @@
               p.mb-0 Tomar #[em exploits] ya existentes y adaptarlos para las plataformas o sistemas objetivos.
             div(data-aos="fade-right")
               .h5.tcp #[em Exploits] communes
-              p.mb-0 #[em Buffer overflow], SEH (Structured Exception Handler), ROP (Return Oriented Programming)
+              p.mb-0 #[em Buffer overflow], SEH (Structured Exception Handler), ROP (Return Oriented Programming).
             div.text-start(data-aos="fade-left")
-              .h5.tcp Crackeo De SSID (WIFI)
+              .h5.tcp Crackeo de SSID (WIFI)
               p.mb-0 Movimientos enfocados a apalancar vulnerabilidades sobre este medio y sus protocolos de encriptación como (WEB, WPA, EAP-FAST, entre otros).
             div(data-aos="fade-right")
               .h5.tcp Ataques al usuario (Ingeniería social)
-              p.mb-0 Con base en los temas encontrados en la fase de modelado de amenazas, emplear los ataques de ingeniería social al personal de la organización para obtener #[em passwords], documentación adicional etc.
+              p.mb-0 Con base en los temas encontrados en la fase de modelado de amenazas, emplear los ataques de ingeniería social al personal de la organización para obtener #[em passwords], documentación adicional, etc.
             div.text-start(data-aos="fade-left")
               .h5.tcp Hombre en el medio (Man In-The-Middle)
               p.mb-0 Ataques de interceptación de tráfico, donde se suplanta el direccionamiento bien sea físico o IP.
             div(data-aos="fade-right")
               .h5.tcp VLAN Hopping
-              p.mb-0 Este método de ataque consiste en engañar a dispositivos conmutadores (switches) con el fin de ganar acceso a la red como un dispositivo confiable, los métodos más comunes son VLAN HOPPING y Switch Spoofing.
+              p.mb-0 Este método de ataque consiste en engañar a dispositivos conmutadores (#[em switches]) con el fin de ganar acceso a la red como un dispositivo confiable, los métodos más comunes son VLAN HOPPING y Switch Spoofing.
 
           .cajon.color-secundario.p-4(data-aos="fade-right")
             p.mb-0 Existen aún más métodos de ataque, con los cuales se puede intentar lograr el objetivo de vulnerar o acceder a los sistemas. Una vez se logre el objetivo de ingreso, deberán documentarse los hallazgos de una manera evidente y concreta para utilizar la información como herramienta de mejora. #[span.ta (MINTIC, s.f.).]
@@ -546,16 +524,16 @@
               p.mb-0 Ingreso a las entidades certificadoras, que podría afectar la creación de certificados, revocación e incluso la inscripción de dichos certificados si se llega a comprometer la llave.
             li(style="margin-bottom: 2px" data-aos="fade-right")
               i.fas.fa-check-circle.tac
-              p.mb-0 Acceso a los sistemas de almacenamiento, para verificar información sobre tipos de #[em backup], medios empleados etc.
+              p.mb-0 Acceso a los sistemas de almacenamiento, para verificar información sobre tipos de #[em backup], medios empleados, etc.
             li(style="margin-bottom: 2px" data-aos="fade-right")
               i.fas.fa-check-circle.tac
-              p.mb-0 #[em Ping Sweeps] (Barridos A VLANS para identificar hosts).
+              p.mb-0 #[em Ping Sweeps] (Barridos A VLANS para identificar #[em hosts]).
             li(style="margin-bottom: 2px" data-aos="fade-right")
               i.fas.fa-check-circle.tac
               p.mb-0 Instalación de #[em exploits] remotos.
             li(style="margin-bottom: 2px" data-aos="fade-right")
               i.fas.fa-check-circle.tac
-              p.mb-0 Instalación de #[em backdoors] para posterior ingreso y que no se afecten por los reinicios de los hosts.
+              p.mb-0 Instalación de #[em backdoors] para posterior ingreso y que no se afecten por los reinicios de los #[em hosts].
             li(style="margin-bottom: 2px" data-aos="fade-right")
               i.fas.fa-check-circle.tac
               p.mb-0 Modificación de los servicios.
@@ -624,7 +602,7 @@
             p.mb-0 Diseños o arquitecturas de sistemas inseguros, servicios de red sin #[em hardening].
           li(style="margin-bottom: 2px" data-aos="fade-left")
             i.fas.fa-play-circle.tcs
-            | Firmware de dispositivos obsoleto. 
+            p.mb-0 #[em Firmware] de dispositivos obsoleto. 
 
     .BGRB09.mb-5(data-aos="fade-right")
       .h3.mb-0 Reporte técnico
@@ -654,13 +632,13 @@
             | Inteligencia con el personal interno, donde se evidencia la información que pudo obtenerse por medio de ingeniería social (solo en primera instancia, no para solicitar claves o accesos).
           li(style="margin-bottom: 2px" data-aos="fade-right")
             i.fas.fa-check-circle.tac
-            | Vulnerabilidades encontradas (clasificadas bien sea por los servicios, plataformas o hosts).
+            p.mb-0 Vulnerabilidades encontradas (clasificadas bien sea por los servicios, plataformas o #[em hosts]).
           li(style="margin-bottom: 2px" data-aos="fade-right")
             i.fas.fa-check-circle.tac
-            | Explotación de las vulnerabilidades (cuales fueron apalancadas o pudieron ser aprovechadas en cada host y cuáles no).
+            p.mb-0 Explotación de las vulnerabilidades (cuales fueron apalancadas o pudieron ser aprovechadas en cada #[em host] y cuáles no).
           li(style="margin-bottom: 2px" data-aos="fade-right")
             i.fas.fa-check-circle.tac
-            | Actividades de POST-Explotación efectuadas en cada host comprometido con la prueba.
+            p.mb-0 Actividades de POST-Explotación efectuadas en cada #[em host] comprometido con la prueba.
           li(style="margin-bottom: 2px" data-aos="fade-right")
             i.fas.fa-check-circle.tac
             | Una vez se finaliza el reporte, se espera que la entidad inicie con las actividades propuestas para cerrar las brechas y aumentar la efectividad de los controles implementados o se implementen otros que cumplan con las expectativas de seguridad de la información.
