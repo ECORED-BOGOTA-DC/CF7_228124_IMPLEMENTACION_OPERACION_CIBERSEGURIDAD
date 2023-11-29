@@ -264,8 +264,10 @@
               img(src='@/assets/curso/tema2/img19.png' alt="Imagen decorativa")
           .row.justify-content-center(numero="2" titulo="Enfocado en la entidad: considerar los activos…")
             .col-lg-8.order-lg-1.order-2
-              p Datos de empleados y datos de clientes.
               ul.lista-ul--color.lista-ul--separador.ms-4
+                li(style="margin-bottom: 2px")
+                  i.fas.fa-check-circle.tac
+                  | Datos de empleados y datos de clientes.
                 li(style="margin-bottom: 2px")
                   i.fas.fa-check-circle.tac
                   | Sistemas de información e información financiera.
@@ -286,7 +288,7 @@
                   | Información generada a través de los diferentes procesos de negocio.
                 li(style="margin-bottom: 2px")
                   i.fas.fa-check-circle.tac
-                  | Información de producto (investigación y desarrollo, patentes, entre otros.).
+                  | Información de producto (investigación y desarrollo, patentes, entre otros).
               p.ta.mb-0 MINTIC (s.f.).
             .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
               img(src='@/assets/curso/tema2/img20.png' alt="Imagen decorativa")

@@ -125,7 +125,7 @@
     p(data-aos="fade-right") Tanto las normas ISO/IEC 27001 e ISO/IEC 27004, así como la Guía 9 de indicadores de gestión para la seguridad de la información del Ministerio de Tecnologías de la Información y las Comunicaciones, destacan la importancia de estos, para medir la gestión y el cumplimiento en el modelo de seguridad digital de las organizaciones. A continuación, algunas definiciones y orientaciones otorgadas por el MINTIC:
     p.mb-5(data-aos="fade-right") Se destacan, los tipos de indicadores que se enuncian y definen a continuación:
 
-    .h4.tcp(data-aos="fade-right") <i class="fas fa-volleyball-ball fa-spin" style="padding-right: 5px"></i> Indicadores de Gestión
+    .h4.tcp(data-aos="fade-right") <i class="fas fa-volleyball-ball fa-spin" style="padding-right: 5px"></i> Indicadores de gestión
 
     p.mb-5(data-aos="fade-right") Están relacionados con las razones que permiten administrar un proceso o un sistema. Profundice a continuación sobre los indicadores de gestión:
 
