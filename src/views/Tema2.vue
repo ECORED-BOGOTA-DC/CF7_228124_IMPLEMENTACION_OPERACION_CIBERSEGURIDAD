@@ -473,7 +473,7 @@
               .h5.tcp Hombre en el medio (Man In-The-Middle)
               p.mb-0 Ataques de interceptación de tráfico, donde se suplanta el direccionamiento bien sea físico o IP.
             div(data-aos="fade-right")
-              .h5.tcp VLAN Hopping
+              .h5.tcp VLAN #[em Hopping]
               p.mb-0 Este método de ataque consiste en engañar a dispositivos conmutadores (#[em switches]) con el fin de ganar acceso a la red como un dispositivo confiable, los métodos más comunes son VLAN HOPPING y Switch Spoofing.
 
           .cajon.color-secundario.p-4(data-aos="fade-right")
