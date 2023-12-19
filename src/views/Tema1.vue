@@ -123,7 +123,7 @@
         .h3.mb-0 Indicadores de gestión e indicadores de cumplimiento
     
     p(data-aos="fade-right") Tanto las normas ISO/IEC 27001 e ISO/IEC 27004, así como la Guía 9 de indicadores de gestión para la seguridad de la información del Ministerio de Tecnologías de la Información y las Comunicaciones, destacan la importancia de estos, para medir la gestión y el cumplimiento en el modelo de seguridad digital de las organizaciones. A continuación, algunas definiciones y orientaciones otorgadas por el MINTIC:
-    p.mb-5(data-aos="fade-right") Se destacan, los tipos de indicadores que se enuncian y definen a continuación:
+
 
     .h4.tcp(data-aos="fade-right") <i class="fas fa-volleyball-ball fa-spin" style="padding-right: 5px"></i> Indicadores de gestión
 
@@ -134,16 +134,16 @@
         img(src='@/assets/curso/tema1/img10.png' alt="Imagen decorativa")
       .col-lg-9(data-aos="fade-left")
         LineaTiempoD.color-acento-contenido
-          div(numero="1" titulo="Organización de seguridad de la información")
+          .row(numero="1" titulo="Organización de seguridad de la información")
             p Permite determinar y hacer seguimiento, al compromiso de la dirección, en cuanto a seguridad de la información, en lo relacionado con la asignación de personas y responsabilidades relacionadas con la seguridad de la información, al interior de la organización. 
             p.mb-0 #[b Objetivo]: hacer un seguimiento a la asignación de recursos y responsabilidades en gestión de seguridad de la información, por parte de la alta dirección.
-          div(numero="2" titulo="Cubrimiento del SGSI en activos de información")
+          .row(numero="2" titulo="Cubrimiento del SGSI en activos de información")
             p Permite determinar y hacer seguimiento al cubrimiento que se realiza al nivel de activos críticos de información de una organización y los controles aplicados.
             p.mb-0 #[b Objetivo]: hacer un seguimiento a la inclusión de nuevos activos críticos de información y su control, dentro del marco de seguridad y privacidad de la información.
-          div(numero="3" titulo="Tratamientos de eventos relacionados en marco de seguridad y privacidad de la información")
+          .row(numero="3" titulo="Tratamientos de eventos relacionados en marco de seguridad y privacidad de la información")
             p Permite determinar la eficiencia en el tratamiento de eventos relacionados en la seguridad de la información. Los eventos serán reportados por los usuarios o determinados en las auditorías planeadas para el sistema.
             p.mb-0 #[b Objetivo]: reflejar la gestión y evolución del modelo de seguridad y privacidad de la información, al interior de la organización.
-          div(numero="4" titulo="Plan de sensibilización")
+          .row(numero="4" titulo="Plan de sensibilización")
             p Permite medir la aplicación de los temas sensibilizados en seguridad de la información por parte de los usuarios finales. Estas mediciones se podrán realizar por medio de auditorías especializadas en el tema o de forma aislada por parte de los responsables de la capacitación y sensibilización.
             p.mb-0 #[b Objetivo]: establecer la efectividad de un plan de capacitación y sensibilización, previamente definido como medio para el control de incidentes de seguridad.
 
@@ -168,7 +168,7 @@
           div(numero="5" titulo="Implementación de los procesos de registro y auditoría")
             p Es el grado de existencia de lineamientos, normas o estándares en cuanto registro y auditoría para la seguridad de la información.
             p.mb-0 #[b Objetivo]: identificar la existencia de lineamientos, normas o estándares en cuanto registro y auditoría para la seguridad de la información.
-          div(numero="6" titulo="Implementación de los procesos de registro y auditoría")
+          div(numero="6" titulo="Detección de anomalías en la prestación de los servicios de la entidad")
             p Es el grado de implementación de los mecanismos encaminados a la detección de anomalías e irregularidades.
             p.mb-0 #[b Objetivo]: medir el nivel de mecanismos encaminados a la detección de anomalías e irregularidades.
           div(numero="7" titulo="Políticas de privacidad y confidencialidad")
@@ -176,7 +176,7 @@
             p.mb-0 #[b Objetivo]: identificar el nivel de implementación de políticas de privacidad y confidencialidad de la organización.
           div(numero="8" titulo="Verificación de las políticas de integridad de la información")
             p Es el grado de implementación de mecanismos para la integridad de la información.
-            p.mb-0 #[b Objetivo]:  identificar el nivel de implementación de políticas, privacidad y confidencialidad de la organización.
+            p.mb-0 #[b Objetivo]:  verificar el nivel de implementación de políticas de integralidad de la información.
           div(numero="9" titulo="Políticas de disponibilidad del servicio y la información")
             p Es el grado de cumplimiento de las políticas de disponibilidad del servicio y la información.
             p.mb-0 #[b Objetivo]: identificar el nivel de implementación de políticas de disponibilidad del servicio y la información.

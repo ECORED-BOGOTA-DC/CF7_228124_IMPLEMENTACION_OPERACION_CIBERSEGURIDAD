@@ -7,9 +7,9 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/falso-verdadero.svg", alt="Imagen decorativa")
+            img(src="@/assets/template/arrastrar_Soltar.svg", alt="Imagen decorativa")
       .col-12.col-md-8.col-lg-9(data-aos="fade-left")
-        .titulo-segundo
+        .titulo-segundo.color-acento-contenido
           h2 La seguridad digital
         p.mb-4 Reconocer los elementos, indicadores, métricas y metodologías necesarios para hacer seguimiento y monitoreo de la seguridad digital, generando con esto el aprovechamiento de los mismos y generando acciones de mejora continua para la seguridad digital.
         .tarjeta.actividad.p-3

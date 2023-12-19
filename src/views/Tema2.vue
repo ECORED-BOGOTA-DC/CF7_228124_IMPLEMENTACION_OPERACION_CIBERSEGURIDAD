@@ -29,9 +29,7 @@
             .h2 2
           .h5 Identificación de eventos
           p Se podrán identificar, al igual que las amenazas, las posibles debilidades en los controles implementados.
-          .row.justify-content-center
-            .col-lg-4.col-6
-              img(src='@/assets/curso/tema2/img02.svg' alt="Imagen decorativa")
+
       .col-xl-4.col-md-6.mb-4(data-aos="fade-left")
         .tarjeta-numerada.color-acento-contenido.h-100.p-5
           .tarjeta-numerada__numero
@@ -50,9 +48,7 @@
             .h2 5
           .h5 Cumplimiento, aseguramiento e imagen
           p Cumplir con la normatividad vigente y llevar a la organización al siguiente nivel de seguridad, permite que sus procesos y atención al ciudadano brinden una buena imagen en la sociedad.
-          .row.justify-content-center
-            .col-lg-4.col-6
-              img(src='@/assets/curso/tema2/img03.svg' alt="Imagen decorativa")
+
     
     .BGM04.py-4.px-md-5.px-4.mb-4
       .row.justify-content-center
@@ -163,7 +159,7 @@
     .row.justify-content-center.mb-5
       .col-lg-6
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/tema2/img14.svg' alt="Imagen que menciona las fases de las pruebas de efectividad, las cuales son:<br>Contextualización, reconocimiento del objetivo, modelo de amenazas, evaluación de vulnerabilidades, explotación, post-explotación, reporte.")
+          img(src='@/assets/curso/tema2/img14.svg' alt="Imagen que menciona las fases de las pruebas de efectividad, las cuales son: Contextualización, reconocimiento del objetivo, modelo de amenazas, evaluación de vulnerabilidades, explotación, post-explotación, reporte.")
           figcaption.text-center Nota. <a style="color: #3F51B5; text-decoration: underline #3F51B5" href="https://www.mintic.gov.co/gestionti/615/articles-5482_G1_Metodologia_pruebas_efectividad.pdf" target="_blank">Guía metodológica de pruebas de efectividad</a>
     
     p.mb-5(data-aos="fade-right") Repase las fases secuenciales de aplicación de las pruebas de efectividad, en procesos de seguridad de la información, como lo propone MINTIC, explorando la información que se expone a continuación:
@@ -461,7 +457,7 @@
               .h5.tcp #[em Exploits] adaptados o complementados
               p.mb-0 Tomar #[em exploits] ya existentes y adaptarlos para las plataformas o sistemas objetivos.
             div(data-aos="fade-right")
-              .h5.tcp #[em Exploits] communes
+              .h5.tcp #[em Exploits] comunes
               p.mb-0 #[em Buffer overflow], SEH (Structured Exception Handler), ROP (Return Oriented Programming).
             div.text-start(data-aos="fade-left")
               .h5.tcp Crackeo de SSID (WIFI)
@@ -470,7 +466,7 @@
               .h5.tcp Ataques al usuario (Ingeniería social)
               p.mb-0 Con base en los temas encontrados en la fase de modelado de amenazas, emplear los ataques de ingeniería social al personal de la organización para obtener #[em passwords], documentación adicional, etc.
             div.text-start(data-aos="fade-left")
-              .h5.tcp Hombre en el medio (Man In-The-Middle)
+              .h5.tcp Hombre en el medio (<i>Man In-The-Middle</i>)
               p.mb-0 Ataques de interceptación de tráfico, donde se suplanta el direccionamiento bien sea físico o IP.
             div(data-aos="fade-right")
               .h5.tcp VLAN #[em Hopping]
@@ -628,7 +624,7 @@
             | Información recolectada en plataformas como Google, Bing, páginas de referencia, etc.
           li(style="margin-bottom: 2px" data-aos="fade-right")
             i.fas.fa-check-circle.tac
-            | Información que pudo ser recolectada en las plataformas publicadas como, estructura de la organización, unidades de negocio, mercados, proveedores etc.
+            | Información que pudo ser recolectada en las plataformas publicadas como, estructura de la organización, unidades de negocio, mercados, proveedores, etc.
           li(style="margin-bottom: 2px" data-aos="fade-right")
             i.fas.fa-check-circle.tac
             | Inteligencia con el personal interno, donde se evidencia la información que pudo obtenerse por medio de ingeniería social (solo en primera instancia, no para solicitar claves o accesos).
@@ -657,7 +653,7 @@
         .bloque-texto-b.color-secundario.p-4.mb-4(data-aos="fade-left")
           .bloque-texto-b__texto
             i.fas.fa-quote-left(style="color: #8F52F5; font-size: 2em")
-            p En esta fase ya se cuenta con la información resultante del levantamiento de información, pruebas, análisis y evidencias recolectados se han evidenciado las vulnerabilidades técnicas explotables y la línea base de seguridad de la entidad evaluada, su brecha frente a la norma ISO 27001 y en relación con mejores prácticas.
+            p En esta fase ya se cuenta con la información resultante del levantamiento de información, pruebas, análisis y evidencias recolectadas, se han evidenciado las vulnerabilidades técnicas explotables y la línea base de seguridad de la entidad evaluada, su brecha frente a la norma ISO 27001 y en relación con mejores prácticas.
             i.fas.fa-quote-right(style="color: #8F52F5; font-size: 2em")
           .bloque-texto-d__autor 
             .h5 (MINTIC, s.f.).

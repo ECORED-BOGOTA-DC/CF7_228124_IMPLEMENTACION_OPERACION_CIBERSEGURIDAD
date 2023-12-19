@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5(data-aos="fade-right") Toda empresa u organización debe propender por establecer una política que permita identificar, gestionar e implementar las acciones necesarias que permitan prevenir y mitigar los riesgos de seguridad digital, esto a través de monitoreos métodos e indicadores que permitan su seguimiento constante acorde a las métricas establecidas por la organización que generen seguridad digital.
+    p.mb-5(data-aos="fade-right") Toda empresa u organización debe propender por establecer una política que permita identificar, gestionar e implementar las acciones necesarias que permitan prevenir y mitigar los riesgos de seguridad digital, esto a través de monitoreos, métodos e indicadores que permitan su seguimiento constante acorde a las métricas establecidas por la organización que generen seguridad digital.
 
     .row.justify-content-center
       .col-lg-10.mb-5(data-aos="fade-right")
